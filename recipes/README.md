@@ -1,53 +1,63 @@
-# 🍳 Mis Recetas Favoritas | HTML & CSS
+# 🥗 Odin Recipes | The Odin Project
 
-> Un proyecto personal donde documento mis recetas de cocina preferidas mientras aprendo maquetación web con **HTML5** y **CSS3**.
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge"/>
+  <img src="https://img.shields.io/badge/The_Odin_Project-Foundation-black?style=for-the-badge" alt="The Odin Project Badge"/>
+</p>
+
+> Un sitio web de recetas interactivo desarrollado como parte del currículo **Foundations** de [The Odin Project](https://www.theodinproject.com/). El objetivo principal es poner en práctica los fundamentos de estructuración web semántica con **HTML5** y maquetación con **CSS3**.
 
 ---
 
-## 📷 Vista Previa
+## 📷 Vista Previa del Proyecto
 
-| Vista Principal (Home) | Vista de Receta |
+| Página Principal (`index.html`) | Vista de Receta |
 | :---: | :---: |
-| ![Preview Home](https://via.placeholder.com/400x250?text=Home+Preview) | ![Preview Receta](https://via.placeholder.com/400x250?text=Recipe+Preview) |
+| ![Página Principal](https://via.placeholder.com/400x250/E34F26/FFFFFF?text=Odin+Recipes+Index) | ![Página de Receta](https://via.placeholder.com/400x250/1572B6/FFFFFF?text=Detalle+de+Receta) |
+
+*(Nota: Reemplaza las imágenes anteriores por capturas reales de tu pantalla)*
 
 ---
 
-## 🚀 Funcionalidades y Páginas
+## 🍳 Recetas Incluidas
 
-* 🏠 **Página Principal:** Menú de navegación y tarjetas (cards) visuales para cada receta.
-* 🥗 **Páginas de Receta:** 
-  * Lista de ingredientes estilizada con *checkboxes* o viñetas personalizadas.
-  * Pasos de preparación ordenados paso a paso.
-  * Etiquetas con tiempo de preparación, dificultad y porciones.
-* 📱 **Diseño Adaptable (Responsive):** La web se ajusta perfectamente a móviles, tablets y ordenadores.
+En esta web encontrarás el paso a paso, ingredientes e instrucciones para preparar:
+
+* 🍝 **Receta 1** (p. ej. Espaguetis a la Bolonia)
+* 🥗 **Receta 2** (p. ej. Ensalada César)
+* 🍰 **Receta 3** (p. ej. Tarta de Queso)
 
 ---
 
-## 🛠️ Tecnologías Aprendidas y Aplicadas
+## 🛠️ Conceptos y Tecnologías Aprendidas
 
-Durante el desarrollo de este proyecto, he practicado los siguientes conceptos:
+A través de este proyecto he practicado y consolidado los siguientes temas:
 
-### 📄 **HTML5**
-* Estruturación semántica (`<header>`, `<nav>`, `<main>`, `<article>`, `<footer>`).
-* Uso de listas para ingredientes y preparación (`<ul>`, `<ol>`).
-* Tablas de datos nutricionales y formularios sencillos.
+### 📄 **HTML Semántico**
+- Estructura básica de un documento HTML (`<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`).
+- Encabezados jerárquicos (`<h1>`, `<h2>`, `<h3>`) para organizar el contenido.
+- Listas ordenadas (`<ol>`) e desordenadas (`<ul>`) para instrucciones e ingredientes.
+- Enlaces de navegación (`<a>`) para conectar la página principal con las recetas individuales.
+- Atributos multimedia (`<img>`) con texto alternativo (`alt`) accesible.
 
-### 🎨 **CSS3**
-* **Flexbox & CSS Grid:** Para la alineación de las tarjetas de recetas y el menú.
-* **Modelo de Caja (Box Model):** Manejo de `margin`, `padding` y `border`.
-* **Variables CSS:** Para reutilizar los colores principales del sitio.
-* **Efectos Hover:** Transiciones suaves al pasar el ratón sobre los botones y tarjetas.
+### 🎨 **Estilos con CSS**
+- Vinculación de hojas de estilo externas (`<link rel="stylesheet">`).
+- Selección de elementos mediante clases, IDs y etiquetas.
+- Manejo del **Modelo de Caja (Box Model)**: márgenes, rellenos (`padding`), bordes y dimensiones.
+- Tipografía personalizable, colores de fondo y diseño atractivo de tarjetas.
 
 ---
 
 ## 📂 Estructura del Proyecto
 
 ```text
-├── index.html            # Página de inicio con el menú de recetas
-├── css/
-│   └── styles.css        # Hoja de estilos principal
-├── pages/
-│   ├── carbonara.html    # Ejemplo de página de receta
-│   └── guacamole.html    # Ejemplo de página de receta
-└── assets/
-    └── images/           # Fotos de platillos e iconos
+projects-TOP/
+└── recipes/
+    ├── index.html            # Página de inicio con la lista de recetas
+    ├── styles.css            # Estilos globales de CSS
+    ├── recipes/              # Subcarpeta con cada receta
+    │   ├── receta1.html
+    │   ├── receta2.html
+    │   └── receta3.html
+    └── images/               # Imágenes utilizadas en las recetas
