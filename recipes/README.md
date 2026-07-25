@@ -51,6 +51,7 @@ projects-TOP/
     │   └── indian-fish-curry.html
     └── images/               # Imágenes utilizadas en las recetas
 
+```
 
 ---
 
