@@ -6,27 +6,16 @@
   <img src="https://img.shields.io/badge/The_Odin_Project-Foundation-black?style=for-the-badge" alt="The Odin Project Badge"/>
 </p>
 
-> Un sitio web de recetas interactivo desarrollado como parte del currículo **Foundations** de [The Odin Project](https://www.theodinproject.com/). El objetivo principal es poner en práctica los fundamentos de estructuración web semántica con **HTML5** y maquetación con **CSS3**.
+> Un sitio web de recetas interactivo desarrollado como parte del currículo **Foundations** de [The Odin Project](https://www.theodinproject.com/). El objetivo principal es poner en práctica los fundamentos de estructuración web semántica con **HTML** y maquetación con **CSS**.
 
----
-
-## 📷 Vista Previa del Proyecto
-
-| Página Principal (`index.html`) | Vista de Receta |
-| :---: | :---: |
-| ![Página Principal](https://via.placeholder.com/400x250/E34F26/FFFFFF?text=Odin+Recipes+Index) | ![Página de Receta](https://via.placeholder.com/400x250/1572B6/FFFFFF?text=Detalle+de+Receta) |
-
-*(Nota: Reemplaza las imágenes anteriores por capturas reales de tu pantalla)*
-
----
 
 ## 🍳 Recetas Incluidas
 
 En esta web encontrarás el paso a paso, ingredientes e instrucciones para preparar:
 
-* 🍝 **Receta 1** (p. ej. Espaguetis a la Bolonia)
-* 🥗 **Receta 2** (p. ej. Ensalada César)
-* 🍰 **Receta 3** (p. ej. Tarta de Queso)
+* 🍝 **Pasta** 
+* 🥗 **Chicken**
+* 🍰 **Indian Fish Curry** 
 
 ---
 
@@ -57,7 +46,12 @@ projects-TOP/
     ├── index.html            # Página de inicio con la lista de recetas
     ├── styles.css            # Estilos globales de CSS
     ├── recipes/              # Subcarpeta con cada receta
-    │   ├── receta1.html
-    │   ├── receta2.html
-    │   └── receta3.html
+    │   ├── pasta.html
+    │   ├── chicken.html
+    │   └── indian-fish-curry.html
     └── images/               # Imágenes utilizadas en las recetas
+
+
+---
+
+## Créditos de imágenes a <a href="allrecipes.com">
