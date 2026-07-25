@@ -4,8 +4,10 @@ body {
     padding: 0;
 }
 
-.header {
+.header, .footer{
     background-color: #1f2937;
+}
+.header {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -120,12 +122,12 @@ button {
 }
 
 .quote-section {
-    width: 100%;
     background-color: #e5e7eb;
     padding: 60px 20px;
     display: flex;
     justify-content: center;
 }
+
 .quote-container {
     max-width: 800px;
     display: flex;
@@ -162,4 +164,15 @@ button {
 
 .btn-section-action {
     align-self: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.copy-text {
+    color: white;
+    padding: 16px;
+    font-size: 11px;
 }
