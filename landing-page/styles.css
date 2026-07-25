@@ -118,3 +118,30 @@ button {
     text-align: center;
     max-width: 200px;
 }
+
+.quote-section {
+    width: 100%;
+    background-color: #e5e7eb;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+}
+.quote-container {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    align-self: flex-start;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+}
