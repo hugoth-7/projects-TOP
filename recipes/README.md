@@ -55,4 +55,4 @@ projects-TOP/
 
 ---
 
-## Créditos de imágenes a <a href="allrecipes.com">
+## Créditos de imágenes a  [All Recipes](https://www.allrecipes.com)
