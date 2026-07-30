@@ -1,5 +1,6 @@
 const container = document.querySelector("#container");
 const btnGrid = document.querySelector(".btnSquares");
+const btnReset = document.querySelector(".btnReset");
 const textDimensions = document.querySelector(".dimension p");
 
 let numSquares = 16;
@@ -54,4 +55,9 @@ function randomColor() {
     return `rgb(${r}, ${g}, ${b})`;
 }
 
-
+btnReset.addEventListener('click', reset => {
+    for (const child of container.children){
+        child.style.backgroundColor = `white`;
+        child.style.opacity = 0;
+    }
+})
