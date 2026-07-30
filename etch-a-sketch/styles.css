@@ -1,0 +1,99 @@
+body {
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Georgia', 'Cambria', 'Times New Roman', serif;
+}
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    outline: 2px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 5px 5px;
+    align-items: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.buttons {
+    display: flex;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.btnSquares, .btnReset {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: inherit;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btnSquares {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.btnSquares:hover {
+    background: linear-gradient(135deg, #5a6fd6 0%, #6a4190 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(102, 126, 234, 0.4);
+}
+
+.btnSquares:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(102, 126, 234, 0.4);
+}
+
+.btnReset {
+    background: linear-gradient(135deg, #ff6b6b 0%, #ee5a5a 100%);
+    color: white;
+}
+
+.btnReset:hover {
+    background: linear-gradient(135deg, #e85a5a 0%, #d64a4a 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(255, 107, 107, 0.4);
+}
+
+.btnReset:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(255, 107, 107, 0.4);
+}
+
+.btnSquares:focus, .btnReset:focus {
+    outline: 3px solid rgba(102, 126, 234, 0.4);
+    outline-offset: 2px;
+}
+
+.btnReset:focus {
+    outline-color: rgba(255, 107, 107, 0.4);
+}
+
+.title h1 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-size: 2.5rem;
+}
+
+.description p {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.dimension p {
+    color: white;
+    font-weight: 600;
+}
