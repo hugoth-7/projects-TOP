@@ -32,9 +32,17 @@ function gridFill(numSquares){
     }
 }
 
+let hoverCount = 0;
+
 container.addEventListener('mouseover', (e) => {
     if (e.target.classList.contains("square")) {
         e.target.style.backgroundColor = randomColor();
+        hoverCount++;
+ 
+        const currentOpacity = Number(e.target.style.opacity) || 0;
+        const newOpacity = Math.min(currentOpacity + 0.1, 1);
+
+        e.target.style.opacity = newOpacity;
     }
 });
 
