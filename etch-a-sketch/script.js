@@ -22,7 +22,7 @@ btnGrid.addEventListener('click', grid => {
 });
 
 function gridFill(numSquares){
-    const squareDim = 490 / numSquares;4
+    const squareDim = 490 / numSquares;
     for(let i = 0; i<numSquares * numSquares; i++){
         const square = document.createElement("div");
         square.classList.add("square");
