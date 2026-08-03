@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="left">
+       
+        <div id="logo">
+            <img class="icon" src="./images/odin-lined.png">
+            <p>ODIN</p> 
+        </div>
+        <div class="credits">
+            Photo by <a href>Halie West</a> on <a href>Unsplash</a>
+        </div>
+         <img class="background" src="./images/background.jpg">
+    </div>
+
+    <div id="right">
+        <div class="header">
+            <p> This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now <em> now </em> to get started.</p>
+            <br>
+            <p> You <em> know </em> you want to. </p>
+        </div>
+        <div class="form">
+            <p style="margin-bottom: 1.5rem;"> Let's do This </p>
+            
+            <form action method="post" id="signUpForm">
+                <div class="form-group">
+                    <label for="firstName">FIRST NAME</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="lastName">LAST NAME</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="userEmail">EMAIL</label>
+                    <input type="email" id="userEmail" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phoneNumber">PHONE NUMBER</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirmPassword">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required>
+                </div>
+            </form>
+        </div>
+
+        <button type="submit" form="signUpForm"> Create Account </button>
+        
+        <div class="login">
+            <p> Already have an account? <a>Log in</a></p>
+        </div>
+    </div>
+</body>
+</html>
