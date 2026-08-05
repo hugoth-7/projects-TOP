@@ -201,4 +201,4 @@ rock-paper-scissors/
 
 ✅ **Completado** — Versión jugable con UI infantil, botones, DOM, animaciones y celebrativas.
 
-Proyecto desarrollado como parte del currículo de **The Odin Project** (Foundations → JavaScript Basics).
+Proyecto desarrollado como parte del curso de **The Odin Project** (Foundations → JavaScript Basics).

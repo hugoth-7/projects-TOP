@@ -4,7 +4,7 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Flexbox](https://img.shields.io/badge/Layout-Flexbox-green?style=for-the-badge)
 
-Una réplica de la clásica *Landing Page* propuesta en el currículo de **The Odin Project**. Este proyecto demuestra el dominio de la maquetación moderna con HTML5 semántico, layouts flexibles con Flexbox y alineación de elementos.
+Una réplica de la clásica *Landing Page* propuesta en el curso de **The Odin Project**. Este proyecto demuestra el dominio de la maquetación moderna con HTML5 semántico, layouts flexibles con Flexbox y alineación de elementos.
 
 ---
 

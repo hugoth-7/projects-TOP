@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/The_Odin_Project-Foundation-black?style=for-the-badge" alt="The Odin Project Badge"/>
 </p>
 
-> Un sitio web de recetas interactivo desarrollado como parte del currículo **Foundations** de [The Odin Project](https://www.theodinproject.com/). El objetivo principal es poner en práctica los fundamentos de estructuración web semántica con **HTML** y maquetación con **CSS**.
+> Un sitio web de recetas interactivo desarrollado como parte del curso **Foundations** de [The Odin Project](https://www.theodinproject.com/). El objetivo principal es poner en práctica los fundamentos de estructuración web semántica con **HTML** y maquetación con **CSS**.
 
 
 ## 🍳 Recetas Incluidas
