@@ -14,7 +14,7 @@
     <div class="header">
         <div class = "divTitle">
             <p class="title">My Library</p>
-            <p class="subtitle">Keep your favorite books in one calm, simple space.</p>
+            <p class="subtitle">Track the books you want to read, are reading, and have already finished.</p>
         </div>
         <div class= "addBook">
             <button command="show-input"> Add Book</button>
@@ -22,7 +22,7 @@
                 <form>
                     <p>
                         <label for="bookTitle">Book title</label>
-                        <input id="bookTitle" name="bookTitle" type="text" />
+                        <input id="bookTitle" name="bookTitle" type="text" required />
                     </p>
                     <p>
                         <label for="bookAuthor">Author</label>
@@ -30,7 +30,7 @@
                     </p>
                     <p>
                         <label for="bookPages">Pages</label>
-                        <input id="bookPages" name="bookPages" type="number" min="1" />
+                        <input id="bookPages" name="bookPages" type="number" min="1" required />
                     </p>
                     <p>
                         <label for="bookStatus">Status</label>
@@ -51,50 +51,14 @@
 
     <div class="finished">
         <p> Finished </p>
-        <div>
-            <h2> Harry Potter </h2>
-            <p class="bookAuthor">J.K. Rowling</p>
-            <p class="bookPages"><span class="pagesLabel">Pages:</span> 560</p>
-            <div class="buttonsBook">
-                <button> Toogle Read </button>
-                <button class="deleteButton" type="button" aria-label="Delete book">
-                    <img src="./images/delete/delete.svg" alt="delete icon" class="deleteDefault">
-                    <img src="./images/delete/delete-hover.svg" alt="delete hover icon" class="deleteHover">
-                </button>
-            </div>
-        </div>
     </div>
 
     <div class="reading">
         <p> Reading </p>
-        <div>
-            <h2> Harry Potter </h2>
-            <p class="bookAuthor">J.K. Rowling</p>
-            <p class="bookPages"><span class="pagesLabel">Pages:</span> 560</p>
-            <div class="buttonsBook">
-                <button> Toogle Read </button>
-                <button class="deleteButton" type="button" aria-label="Delete book">
-                    <img src="./images/delete/delete.svg" alt="delete icon" class="deleteDefault">
-                    <img src="./images/delete/delete-hover.svg" alt="delete hover icon" class="deleteHover">
-                </button>
-            </div>
-        </div>
     </div>
 
     <div class="wishlist">
         <p> Wishlist </p>
-        <div>
-            <h2> Harry Potter </h2>
-            <p class="bookAuthor">J.K. Rowling</p>
-            <p class="bookPages"><span class="pagesLabel">Pages:</span> 560</p>
-            <div class="buttonsBook">
-                <button> Toogle Read </button>
-                <button class="deleteButton" type="button" aria-label="Delete book">
-                    <img src="./images/delete/delete.svg" alt="delete icon" class="deleteDefault">
-                    <img src="./images/delete/delete-hover.svg" alt="delete hover icon" class="deleteHover">
-                </button>
-            </div>
-        </div>
     </div>
 </body>
 </html>
