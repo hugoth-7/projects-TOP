@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libertinus+Serif:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class = "divTitle">
+            <p class="title">My Library</p>
+            <p class="subtitle">Keep your favorite books in one calm, simple space.</p>
+        </div>
+        <div class= "addBook">
+            <button command="show-input"> Add Book</button>
+            <dialog id="favDialog">
+                <form>
+                    <p>
+                        <label for="bookTitle">Book title</label>
+                        <input id="bookTitle" name="bookTitle" type="text" />
+                    </p>
+                    <p>
+                        <label for="bookAuthor">Author</label>
+                        <input id="bookAuthor" name="bookAuthor" type="text" />
+                    </p>
+                    <p>
+                        <label for="bookPages">Pages</label>
+                        <input id="bookPages" name="bookPages" type="number" min="1" />
+                    </p>
+                    <p>
+                        <label for="bookStatus">Status</label>
+                        <select id="bookStatus" name="bookStatus">
+                            <option value="finished">Finished</option>
+                            <option value="reading">Reading</option>
+                            <option value="wishlist">Wishlist</option>
+                        </select>
+                    </p>
+                    <div>
+                        <button value="cancel" formmethod="dialog">Cancel</button>
+                        <button id="confirmBtn" value="default">Add book</button>
+                    </div>
+                </form>
+            </dialog>
+        </div>
+    </div>
+
+    <div class="finished">
+        <p> Finished </p>
+        <div>
+            <h2> Harry Potter </h2>
+            <p class="bookAuthor">J.K. Rowling</p>
+            <p class="bookPages"><span class="pagesLabel">Pages:</span> 560</p>
+            <div class="buttonsBook">
+                <button> Toogle Read </button>
+                <button class="deleteButton" type="button" aria-label="Delete book">
+                    <img src="./images/delete/delete.svg" alt="delete icon" class="deleteDefault">
+                    <img src="./images/delete/delete-hover.svg" alt="delete hover icon" class="deleteHover">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="reading">
+        <p> Reading </p>
+        <div>
+            <h2> Harry Potter </h2>
+            <p class="bookAuthor">J.K. Rowling</p>
+            <p class="bookPages"><span class="pagesLabel">Pages:</span> 560</p>
+            <div class="buttonsBook">
+                <button> Toogle Read </button>
+                <button class="deleteButton" type="button" aria-label="Delete book">
+                    <img src="./images/delete/delete.svg" alt="delete icon" class="deleteDefault">
+                    <img src="./images/delete/delete-hover.svg" alt="delete hover icon" class="deleteHover">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="wishlist">
+        <p> Wishlist </p>
+        <div>
+            <h2> Harry Potter </h2>
+            <p class="bookAuthor">J.K. Rowling</p>
+            <p class="bookPages"><span class="pagesLabel">Pages:</span> 560</p>
+            <div class="buttonsBook">
+                <button> Toogle Read </button>
+                <button class="deleteButton" type="button" aria-label="Delete book">
+                    <img src="./images/delete/delete.svg" alt="delete icon" class="deleteDefault">
+                    <img src="./images/delete/delete-hover.svg" alt="delete hover icon" class="deleteHover">
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
