@@ -1,0 +1,149 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #1b1d24;
+	color: #eceef4;
+}
+
+.game {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	padding: 40px;
+	border: 1px solid #333744;
+	border-radius: 12px;
+	background: #242734;
+}
+
+h1 {
+	font-size: 2rem;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.players {
+	display: flex;
+	gap: 32px;
+}
+
+.player {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.player label {
+	font-weight: 600;
+	font-size: 0.9rem;
+}
+
+.player input {
+	padding: 8px 10px;
+	border: 1px solid #3d4256;
+	border-radius: 6px;
+	background: #1b1d24;
+	color: #eceef4;
+	font-size: 1rem;
+}
+
+.player input:focus {
+	outline: 2px solid #6c8cff;
+	border-color: transparent;
+}
+
+.mark {
+	font-weight: 700;
+}
+
+.mark-x {
+	color: #ff6b6b;
+}
+
+.mark-o {
+	color: #4dabf7;
+}
+
+.status {
+	font-size: 1.15rem;
+	font-weight: 600;
+	min-height: 1.5rem;
+}
+
+.board {
+	display: grid;
+	grid-template-columns: repeat(3, 120px);
+	grid-template-rows: repeat(3, 120px);
+	gap: 8px;
+}
+
+.cell {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 4rem;
+	font-weight: 700;
+	border-radius: 8px;
+	background: #2b2f3d;
+	user-select: none;
+}
+
+.cell-x {
+	color: #ff6b6b;
+}
+
+.cell-o {
+	color: #4dabf7;
+}
+
+.cell.empty {
+	cursor: pointer;
+}
+
+.cell.empty:hover {
+	background: #333748;
+}
+
+.cell.hover-x:hover {
+	color: #ff6b6b;
+}
+
+.cell.hover-o:hover {
+	color: #4dabf7;
+}
+
+.cell.hover-x:hover::after {
+	content: "X";
+	font-size: 4rem;
+	font-weight: 700;
+}
+
+.cell.hover-o:hover::after {
+	content: "O";
+	font-size: 4rem;
+	font-weight: 700;
+}
+
+.start {
+	padding: 10px 28px;
+	border: none;
+	border-radius: 8px;
+	background: #6c8cff;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.start:hover {
+	background: #5a7bf2;
+}
